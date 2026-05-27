@@ -1,0 +1,6 @@
+package az.shopery.order_ms.utils.enums;
+
+public enum UserRole {
+    USER,
+    ADMIN
+}
