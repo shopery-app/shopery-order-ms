@@ -26,12 +26,6 @@ public class SuccessResponse<T> {
     String message;
     T data;
 
-    public static SuccessResponse<Void> of(String message) {
-        return SuccessResponse.<Void>builder()
-                .message(message)
-                .build();
-    }
-
     public static <T> SuccessResponse<T> of(T data, String message) {
         return SuccessResponse.<T>builder()
                 .message(message)
