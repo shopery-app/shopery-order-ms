@@ -9,5 +9,4 @@ class OrderMsApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
